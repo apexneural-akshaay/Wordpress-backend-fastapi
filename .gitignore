@@ -1,0 +1,11 @@
+# Ignore environment and virtual environment folders
+.env
+venv/
+__pycache__/
+*.pyc
+*.log
+*.sqlite3
+
+# Ignore system files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,13 @@
+# Backend Dependencies for AI Website Builder (FastAPI version)
+fastapi
+uvicorn[standard]
+python-dotenv
+requests
+# AI/ML APIs
+google-genai
+anthropic
+# Image Processing
+Pillow
+# Development
+pytest
+
