@@ -48,7 +48,7 @@ GEMINI_API_KEY=your_gemini_key_here
 ### 5. Run the Server
 
 ```bash
-python app.py
+uvicorn main:app --reload --host 0.0.0.0 --port 5000
 ```
 
 Server will start at `http://localhost:5000`
